@@ -1,7 +1,7 @@
 # Javascript-SupportChat-Plugin
 This nice simple chat will take advantage of the socket.io libary
 
-### Initialize the chat with your custom look.
+### Initialize the chat with your custom look
 ```javascript
 SupportChat.init({
   title: 'Support',
@@ -10,7 +10,7 @@ SupportChat.init({
   background: '#009688',
 });
 ```
-### Create your chat.
+### Create your chat
 ```javascript
 SupportChat.create();
 ```
