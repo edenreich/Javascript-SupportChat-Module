@@ -1,19 +1,28 @@
 # Javascript-SupportChat-Plugin
 This nice simple chat will take advantage of the socket.io libary
 
-### Initialize the chat with your custom look
+### Initialize the chat with your custom look on the client side
 ```javascript
-SupportChat.init({
+new SupportChat({
   title: 'Support',
   titleColor: '#ffffff',
-  event: 'send-message',
   background: '#009688',
-});
+  event: '',
+}).create();
 ```
-### Create your chat
+## Or
+### init it in another script and call on your chat instance create
 ```javascript
-SupportChat.create();
+// could be done in different scripts for convinient.
+var myChat = new SupportChat({
+  title: 'Support',
+  titleColor: '#ffffff',
+  background: '#009688',
+  event: '',
+})
+
+myChat.create();
 ```
 
 ## Please note: 
-this chat-app is still in progress..so it's not yet fully functionally, if you wish to help get this going feel free to send me a pull request ! :)
+this chat-app is still in developing..so it's not yet fully functionally, if you wish to help get this going feel free to send me a pull request. thanks! :)
