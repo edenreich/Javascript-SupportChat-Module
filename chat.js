@@ -630,7 +630,6 @@ var SupportChat = function(devSettings) {
 	 * Handle all the errors
 	 */
 	function errorHandler() {
-		
 		window.onerror = function(message, source, lineno, colno, error) {
 			if(error instanceof InvalidArgumentException) {
 				console.error('InvalidArgumentException in '+source+' on line '+lineno);
