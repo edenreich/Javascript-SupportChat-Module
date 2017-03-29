@@ -6,7 +6,7 @@ This nice simple chat will take advantage of the socket.io libary
 ### Initialize the chat with your custom look on the client side
 ```javascript
 new SupportChat({
-  title: 'Support',
+  title: 'Support Chat',
   titleColor: '#ffffff',
   background: '#009688',
   event: '',
@@ -17,7 +17,7 @@ new SupportChat({
 ```javascript
 // could be done in different scripts for convinient.
 var myChat = new SupportChat({
-  title: 'Support',
+  title: 'Support Chat',
   titleColor: '#ffffff',
   background: '#009688',
   event: '',
