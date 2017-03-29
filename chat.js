@@ -174,7 +174,7 @@ var SupportChat = function(devSettings) {
 	// Event for when the module is fully loaded.
 	listen('SupportChatIsFullyLoaded', function() {
 		// Set the errors handler.
-		errorHandler();
+		exceptionsHandler();
 
 		// Make sure the developer passed an object, if not give feedback.
 		if(typeof devSettings != 'object') {
@@ -627,9 +627,9 @@ var SupportChat = function(devSettings) {
 	}
 
 	/**
-	 * Handle all the errors
+	 * Handle all the exceptions
 	 */
-	function errorHandler() {
+	function exceptionsHandler() {
 		window.onerror = function(message, source, lineno, colno, error) {
 			if(error instanceof InvalidArgumentException) {
 				console.error('InvalidArgumentException in '+source+' on line '+lineno);
