@@ -1,3 +1,5 @@
+<p align="center"><img src="https://s3.postimg.org/cmp7ymz2b/chat.jpg"></p>
+
 # Javascript-SupportChat-Plugin
 This nice simple chat will take advantage of the socket.io libary
 
