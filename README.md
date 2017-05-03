@@ -1,6 +1,6 @@
 <p align="center"><img src="https://s3.postimg.org/cmp7ymz2b/chat.jpg"></p>
 
-# Javascript-SupportChat-Plugin
+# Javascript-SupportChat-Module
 This nice simple chat will take advantage of the socket.io libary
 
 ### Initialize the chat with your custom look on the client side
@@ -22,7 +22,9 @@ var myChat = new SupportChat({
   background: '#009688',
   event: '',
 })
-
+```
+And on the other script call:
+```javascript
 myChat.create();
 ```
 
